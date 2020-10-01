@@ -22,6 +22,7 @@ class Floating {
   
   display() {
       fill('rgba(255,255,255,1)');
+    textAlign (CENTER);
       for (let i=0; i<sentence1.length; i++) {
         text(sentence1[i], this.x + mouseX/30, this.y);
       }
